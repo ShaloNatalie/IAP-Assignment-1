@@ -1,0 +1,12 @@
+<?php
+require 'Autoload.php';
+
+// Remove namespace references
+$ObjPageBuilder = new PageBuilder();
+$formObj = new AuthForms();
+
+$ObjPageBuilder->Head($config);
+$ObjPageBuilder->Navbar($config);
+$ObjPageBuilder->Banner($config);
+$ObjPageBuilder->FormSection($config, $formObj);
+$ObjPageBuilder->Footer($config);
