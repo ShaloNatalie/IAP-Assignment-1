@@ -13,7 +13,7 @@ class Database {
         } catch (PDOException $e) {
             die("Database connection failed: " . $e->getMessage());
         }
-    }
+      }
     
     public function getUsers() {
         $stmt = $this->pdo->query("SELECT * FROM users ORDER BY id ASC");

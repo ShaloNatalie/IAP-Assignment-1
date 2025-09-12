@@ -1,7 +1,7 @@
 <?php
 require 'Autoload.php';
 
-// Remove namespace references
+
 $ObjPageBuilder = new PageBuilder();
 $formObj = new AuthForms();
 

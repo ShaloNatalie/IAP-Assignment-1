@@ -3,9 +3,9 @@
 $config['site_timezone'] = 'Africa/Nairobi';
 
 // Site information
-$config['site_name'] = 'ICS B Academy';
+$config['site_name'] = 'TASK APPLICATION';
 $config['site_url'] = 'http://localhost/IAP%20ASSIGNMENTS/IAP-Assignment-1/register.php';
-$config['admin_email'] = 'admin@icsbacademy.com';
+$config['admin_email'] = 'admin@taskapp.com';
 
 // Site language
 $config['site_lang'] = 'en';
