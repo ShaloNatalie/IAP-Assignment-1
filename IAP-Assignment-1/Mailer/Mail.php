@@ -15,12 +15,12 @@ class Mail {
             $mail->isSMTP();
             $mail->Host       = $config['smtp.gmail.com']; 
             $mail->SMTPAuth   = true;
-            $mail->Username   = $config['smtp_user'];
-            $mail->Password   = $config['smtp_pass'];
-            $mail->SMTPSecure = $config['smtp_secure'];
-            $mail->Port       = $config['smtp_port'];
+            $mail->Username   = $config['natalie.shalo@strathmore.edu'];
+            $mail->Password   = $config['gmfu zvam lmlp hefe'];
+            $mail->SMTPSecure = $config['ssl'];
+            $mail->Port       = $config[465];
 
-            //Recipients - USE mailCnt ARRAY PROPERLY
+            
             $mail->setFrom($mailCnt['nananatalie36@gmail.com'], $mailCnt['Natalie Nana']);
             $mail->addAddress($mailCnt['neso8966@gmail.com'], $mailCnt['Neso']);
 

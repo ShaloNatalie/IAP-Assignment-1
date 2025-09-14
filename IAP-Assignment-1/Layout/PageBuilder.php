@@ -13,7 +13,7 @@ class PageBuilder {
             <meta name="author" content="Site Admin">
             <title><?php echo htmlspecialchars($config['page_title'] ?? 'Task App'); ?></title>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-            <meta name="theme-color" content="#0d6efd">
+            <meta name="theme-color" content="#8d4487ff">
         </head>
         <?php
     }
@@ -26,7 +26,7 @@ class PageBuilder {
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold" href="./">
-                        <?php echo htmlspecialchars($config['site_name'] ?? 'MySite'); ?>
+                        <?php echo htmlspecialchars($config['site_name'] ?? 'Task App'); ?>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                             aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,12 +64,12 @@ class PageBuilder {
         <section class="bg-light p-5 rounded-3 mb-4 text-center">
             <div class="container">
                 <h1 class="display-4 fw-semibold">
-                    <?php echo htmlspecialchars($config['banner_title'] ?? 'Welcome to Our Site'); ?>
+                    <?php echo htmlspecialchars($config['banner_title'] ?? 'Welcome to Task App'); ?>
                 </h1>
                 <p class="lead">
-                    <?php echo htmlspecialchars($config['banner_text'] ?? 'Create responsive designs easily with Bootstrap and PHP.'); ?>
+                    <?php echo htmlspecialchars($config['banner_text'] ?? 'Organise your tasks now.'); ?>
                 </p>
-                <a href="#content" class="btn btn-primary btn-lg">Learn More</a>
+                <a href="#content" class="btn btn-primary btn-lg">Learn More!</a>
             </div>
         </section>
         <?php
@@ -82,7 +82,7 @@ class PageBuilder {
             <div class="col-md-6">
                 <div class="p-4 bg-dark text-white rounded shadow-sm h-100">
                     <h2 class="fw-bold">Flexible Styling</h2>
-                    <p>Change text colors and backgrounds to create unique layouts. Combine Bootstrap utilities for quick customization.</p>
+                    <p></p>
                     <button class="btn btn-outline-light">Explore</button>
                 </div>
             </div>
@@ -118,8 +118,8 @@ class PageBuilder {
             <div class="col-md-6">
                 <div class="p-4 bg-light border rounded shadow-sm">
                     <h2 class="fw-bold">Additional Information</h2>
-                    <p>Here you can include some tips or instructions related to registration or signing in. Customize this section to fit your needs.</p>
-                    <button class="btn btn-outline-dark">More Info</button>
+                    <p>P.S Use your full name and school e;mail to register.</p>
+                    <button class="btn btn-outline-dark">For more information...</button>
                 </div>
             </div>
         </section>

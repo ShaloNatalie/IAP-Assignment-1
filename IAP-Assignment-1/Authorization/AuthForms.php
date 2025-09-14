@@ -10,7 +10,7 @@ class AuthForms {
 
                 <div class="mb-3">
                     <label for="reg_fullname" class="form-label">Full Name</label>
-                    <input type="text" id="reg_fullname" name="user_fullname" class="form-control" placeholder="John Doe" required>
+                    <input type="text" id="reg_fullname" name="user_fullname" class="form-control" placeholder="Your Name Here" required>
                 </div>
 
                 <div class="mb-3">
@@ -26,7 +26,7 @@ class AuthForms {
                 <?php $this->createButton('Register', 'btn_register'); ?>
 
                 <div class="mt-2">
-                    <small>Already a member? <a href="login.php">Login here</a></small>
+                    <small>Are you a member? <a href="login.php">Login!</a></small>
                     
             </fieldset>
         </form>

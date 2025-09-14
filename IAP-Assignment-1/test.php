@@ -5,12 +5,12 @@ require 'Autoload.php';
 $ObjMail = new Mail();
 
 $mailCnt = [
-    'name_from' => 'Alex Okama',
-    'mail_from' => 'aokama@yahoo.com',
-    'name_to' => 'Mazzic Studios',
-    'mail_to' => 'west@gmail.com',
-    'subject' => 'Hello From ICS B',
-    'body' => 'Welcome to ICS B! <br> This is a new semester. Let\'s have fun together.'
+    'name_from' => 'Natalie Shalo',
+    'mail_from' => 'nananatalie36@gmail.com',
+    'name_to' => 'Neso',
+    'mail_to' => 'neso8966@gmail',
+    'subject' => 'HELLO!!!',
+    'body' => 'WELCOME TO THE TASK APP!!'
 ];
 
 $ObjMail->Send_Mail($config, $mailCnt);
